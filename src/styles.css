@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url('./assets/Fondo.jpg');
+    overflow-x: hidden;
+    height: 100vh; /* Establece la altura del cuerpo al 100% del viewport */
+    margin: 0; /* Elimina los márgenes por defecto */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el cuerpo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-attachment: fixed; /* Establece el fondo como fijo para que permanezca estático mientras se desplaza el contenido */
+}
